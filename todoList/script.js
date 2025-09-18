@@ -34,6 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
         dltBtn.style.padding = "5px 6px 5px 6px"
         dltBtn.style.backgroundColor = "#6D94C5"
         dltBtn.style.fontSize = "13px"
+        dltBtn.style.flexShrink = "0"
         dltBtn.addEventListener('mouseenter', () => {
             dltBtn.style.backgroundColor = "grey"
         })
@@ -46,6 +47,9 @@ document.addEventListener("DOMContentLoaded", () => {
         li.style.alignItems = "center"
         li.style.justifyContent = "space-between"
         li.style.color = "white"
+        li.style.wordBreak = "break-word"
+        
+        
         li.textContent = task.text
         li.appendChild(dltBtn)
 
