@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
         li.style.justifyContent = "space-between"
         li.style.color = "white"
         li.style.wordBreak = "break-word"
-        
+        li.style.gap = "10px"
         
         li.textContent = task.text
         li.appendChild(dltBtn)
